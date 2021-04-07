@@ -14,12 +14,12 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/APIController.php">
+        <entry file="file://$PROJECT_DIR$/database/seeders/DatabaseSeeder.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="15" column="43" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="43" />
+            <state relative-caret-position="1105">
+              <caret line="65" selection-start-line="65" selection-end-line="65" />
               <folding>
-                <element signature="e#40#76#0#PHP" expanded="true" />
+                <element signature="e#36#67#0#PHP" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -72,13 +72,13 @@
         <option value="$PROJECT_DIR$/tests/Unit/ExampleTest.php" />
         <option value="$PROJECT_DIR$/app/Http/Requests/ImportRequest.php" />
         <option value="$PROJECT_DIR$/database/seeders/UserSeeder.php" />
-        <option value="$PROJECT_DIR$/database/seeders/DatabaseSeeder.php" />
         <option value="$PROJECT_DIR$/tests/Feature/OAuth2Test.php" />
         <option value="$PROJECT_DIR$/../the-office/resources/views/import.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/APIController.php" />
         <option value="$PROJECT_DIR$/.env" />
         <option value="$PROJECT_DIR$/../the-office/.env" />
         <option value="$PROJECT_DIR$/../the-office/.gitignore" />
+        <option value="$PROJECT_DIR$/database/seeders/DatabaseSeeder.php" />
       </list>
     </option>
   </component>
@@ -237,20 +237,13 @@
             <path>
               <item name="the-bank" type="b2602c69:ProjectViewProjectNode" />
               <item name="the-bank" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="database" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="the-bank" type="b2602c69:ProjectViewProjectNode" />
               <item name="the-bank" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="Http" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="the-bank" type="b2602c69:ProjectViewProjectNode" />
-              <item name="the-bank" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="Http" type="462c0819:PsiDirectoryNode" />
-              <item name="Controllers" type="462c0819:PsiDirectoryNode" />
+              <item name="database" type="462c0819:PsiDirectoryNode" />
+              <item name="seeders" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="the-bank" type="b2602c69:ProjectViewProjectNode" />
@@ -314,11 +307,13 @@
       <workItem from="1617583891734" duration="28397000" />
       <workItem from="1617705900727" duration="6895000" />
       <workItem from="1617752541978" duration="18600000" />
+      <workItem from="1617800112793" duration="100000" />
+      <workItem from="1617800435483" duration="9000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="53892000" />
+    <option name="totallyTimeSpent" value="54001000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -332,7 +327,7 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25340393" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26096824" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -517,16 +512,7 @@
     <entry file="file://$PROJECT_DIR$/vendor/laravel/passport/src/Token.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/Feature/ExampleTest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="4" lean-forward="true" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
-          <folding>
-            <element signature="e#33#83#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/Feature/ExampleTest.php" />
     <entry file="file://$PROJECT_DIR$/routes/web.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
@@ -632,23 +618,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/database/seeders/UserSeeder.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="9" lean-forward="true" selection-start-line="15" selection-start-column="9" selection-end-line="25" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/seeders/DatabaseSeeder.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1065">
-          <caret line="65" column="65" selection-start-line="65" selection-start-column="65" selection-end-line="65" selection-end-column="65" />
-          <folding>
-            <element signature="e#36#67#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/database/seeders/UserSeeder.php" />
     <entry file="file://$PROJECT_DIR$/database/migrations/2021_04_06_000548_create_history_import.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -730,6 +700,16 @@
           <caret line="15" column="43" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="43" />
           <folding>
             <element signature="e#40#76#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/seeders/DatabaseSeeder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1105">
+          <caret line="65" selection-start-line="65" selection-end-line="65" />
+          <folding>
+            <element signature="e#36#67#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
