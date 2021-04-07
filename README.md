@@ -104,3 +104,6 @@ HEADER:
 }
 </pre>
 
+# TESTING
+
+<pre>php artisan test</pre>
