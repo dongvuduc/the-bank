@@ -5,6 +5,10 @@ This package helps you authenticate users on a Laravel API based on JWT tokens g
 # Requirements
 ✔️ I`m building an API with Laravel.
 
+✔️ Composer is need to run the command in Laravel. https://getcomposer.org/
+
+✔️ I`m building an API with Laravel.
+
 ✔️ I use Laravel Passport for authentication.
 
 ✔️ The frontend is a separated project: https://github.com/dongvuduc/the-office
