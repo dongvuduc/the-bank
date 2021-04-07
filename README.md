@@ -29,7 +29,10 @@ Require the package
 
 Create Database
 
-<pre>php artisan migrate</pre>
+<pre>
+php artisan migrate
+php artisan db:seed
+</pre>
 
 Run with port 8000 (Local Server 8000 - Frontend 8080)
 
