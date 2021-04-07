@@ -42,6 +42,18 @@ Create new Client for OAuth2 (Optional)
 
 <pre>php artisan passport:client</pre>
 
+# Account Demo
+
+<pre>
+Username: admin@admin.com
+Password: 12345678
+
+Username: office@office.com
+Password: 12345678
+</pre>
+
+
+
 # API
 
 CLIENT ID AND SECRET
